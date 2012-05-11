@@ -1,0 +1,122 @@
+<html>
+   <head>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+   
+      <title><%= title %></title>
+
+      <link rel="stylesheet" href="/css/default.css?6" type="text/css" media="screen" charset="utf-8">
+      <link rel="stylesheet" href="/css/highlight.css?6" type="text/css" media="screen" charset="utf-8">
+
+      <meta name="description" content="(R)?ex - manage all your boxes from a central point">
+      <meta name="keywords" content="<%= keywords %>">
+
+      
+      
+   </head>
+   <body>
+
+      <div id="nav">
+         <img id="nav_img" src="/images/title.png" alt="(R)?ex - What do you want to deploy today?">
+         <div class="navlinks"><a href="/">Home</a>&nbsp;&nbsp;&nbsp;<a href="/get" title="Install Rex on your systems">Get Rex</a>&nbsp;&nbsp;&nbsp;<a href="/modules" title="Usage Examples of Rex Modules">Modules</a>&nbsp;&nbsp;&nbsp;<a href="/howtos" title="Examples, Howtos and Documentation">Howtos/Docs</a>&nbsp;&nbsp;&nbsp;<a href="/api" title="The complete API documentation">API</a>&nbsp;&nbsp;&nbsp;<a href="https://github.com/krimdomu/Rex/wiki">Wiki</a></div>
+
+      </div>
+
+
+      <div id="header">
+         <div id="slider">
+            <div id="bilderlinie">
+               <img src="../images/headpics/admin1.png" alt="Manage and Deploy your Servers" /> 
+               <img src="../images/headpics/deploy.png" alt="Deploy your Web Applications" />
+               <img src="../images/headpics/cloud1.png" alt="Keep your Cloud in Sync with your Configuration" />
+               <img src="../images/headpics/example1.png" alt="Keep your systems in consistant state" />
+               <a href="/feature.html" class="button" id="button_feature">M<span class="smaller">ISS</span> A F<span class="smaller">EATURE?</span></a>
+               <a href="/howtos/start.html" class="button" id="button_explore_rex">E<span class="smaller">XPLORE</span> R<span class="smaller">EX</span></a>
+               <a href="/modules/application_deployment.html" class="button" id="button_app_deploy">R<span class="smaller">EAD</span> M<span class="smaller">ORE</span></a>
+               <a href="/howtos/amazon.html" class="button" id="button_amazon">C<span class="smaller">REATE</span> Y<span class="smaller">OUR</span> C<span class="smaller">LOUD</span></a>
+            </div>
+         </div>
+      </div>
+
+      <div id="site">
+         <div id="page">
+
+            <%= content %>
+
+         </div>
+
+         <div id="footer">
+            <div class="links">
+               Stay in Touch: <a href="https://groups.google.com/group/rex-users/">Google Group</a> / <a href="http://twitter.com/jfried83">Twitter</a> / <a href="https://github.com/krimdomu/Rex">Github</a> / <a href="http://www.freelists.org/list/rex-users">Mailinglist</a> / <a href="http://webchat.freenode.net/?channels=rex">IRC</a>&nbsp;&nbsp;&nbsp;-.ô.-&nbsp;&nbsp;&nbsp;<a href="http://www.disclaimer.de/disclaimer.htm" target="_blank">Disclaimer</a>
+            </div>
+         </div>
+
+        <a href="http://github.com/Krimdomu/Rex"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>
+
+      </div>
+         
+   </body>
+
+   <script type="text/javascript" charset="utf-8" src="/js/jquery-1.5.2.min.js"></script>
+   <script type="text/javascript" charset="utf-8" src="/js/highlight.js"></script>
+
+   <script type="text/javascript" charset="utf-8">
+
+
+      $(".perl").each(function(a,b) {
+
+         HighlightCode(b);
+            
+      });
+
+      if($.browser.msie) {
+         $("#nav_img").css("float", "left");
+      }
+      if($.browser.opera) {
+         $("#nav_img").css("float", "left");
+      }
+
+
+
+   </script>
+
+   <script type="text/javascript" charset="utf-8">
+      var to_move = 724;
+      if($.browser.msie) {
+         $("#nav_img").css("float", "left");
+         to_move = 730;
+      }
+      if($.browser.opera) {
+         $("#nav_img").css("float", "left");
+      }
+
+      function slide_left() {
+
+         $("#bilderlinie").animate({"left": "-=" + to_move}, 2000, function() {
+                  if(parseInt($("#bilderlinie").css("left")) < -1650) {
+                     window.setTimeout(function() { slide_right(); }, 7000);
+                  }
+                  else {
+                     window.setTimeout(function() { slide_left(); }, 7000);
+                  }
+               });
+
+      }
+
+      function slide_right() {
+         $("#bilderlinie").animate({"left": "+=" + to_move}, 2000, function() {
+                  if(parseInt($("#bilderlinie").css("left")) == 0) { 
+                     window.setTimeout(function() { slide_left(); }, 7000);
+                  }
+                  else {
+                     window.setTimeout(function() { slide_right(); }, 7000);
+                  }
+               
+               });
+      }
+
+      window.setTimeout(function() { slide_left(); }, 5000);
+
+   </script>
+
+
+</html>

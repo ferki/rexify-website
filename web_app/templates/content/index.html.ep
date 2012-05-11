@@ -1,0 +1,136 @@
+% layout 'index';
+
+         <h1>What is (R)?ex</h1>
+         <p>With (R)?ex you can <b>manage all your boxes</b> from a central point through the complete process of configuration management and software deployment.</p>
+         <div class="small-vspace"></div>
+
+         <p>Start exploring (R)?ex with this <a href="howtos/start.html">First Steps Guide</a>.</p>
+
+         <div class="small-vspace"></div>
+
+         <p>We are always open for <a href="/feature.html" title="Drop us a feature request">new suggestions</a> and <a href="/feature.html" title="Drop us a feature request">whishes</a>. If you miss a feature just <a href="/feature.html" title="Drop us a feature request">drop us a request</a>.</p>
+
+         <div class="vspace"></div>
+
+         <h1>Latest News</h1>
+         <p><b>2012-05-08</b> (R)?ex 0.28.0 released. Mostly a bugfix release. See <a href="https://github.com/krimdomu/Rex/wiki/New0.28">ChangeLog</a> for a complete list of changes.</p>
+         <p><b>2012-05-05</b> (R)?ex 0.27.0 released. This release adds support for Ubuntu 12.04. See <a href="https://github.com/krimdomu/Rex/wiki/New0.27">ChangeLog</a> for a complete list of changes.</p>
+         <p><b>2012-03-11</b> (R)?ex 0.26.0 released. This release adds support to run everything within a sudo environment. See <a href="https://github.com/krimdomu/Rex/wiki/New0.26">ChangeLog</a> for a complete list of changes and examples.</p>
+         <p><b>2012-02-17</b> (R)?ex 0.25.3 released. Fixed a few bugs . See <a href="http://cpansearch.perl.org/src/JFRIED/Rex-0.25.3/ChangeLog">ChangeLog</a> for more information.</p>
+         <p><b>2012-02-15</b> (R)?ex 0.25.2 released. Added commands to <i>rexify</i> to use the new community recipe directory. See <a href="https://github.com/krimdomu/rex-recipes">for more information</a>.</p>
+
+         <div class="vspace"></div>
+
+         <h1>Features</h1>
+         <ul class="simple-list">
+            <li>Integrates seamless in your running infrastructure.</li>
+            <li>No need of an agent. You only need a ssh connection to your server.</li>
+            <li>Simple definitions of tasks and profiles</li>
+            <li>Currently supports Debian, Ubuntu, Gentoo, Fedora, CentOS, Mageia, OpenSuSE and other Operating Systems. Read <a href="/compatibility.html">Compatibility List</a> for more information.</li>
+            <li>Tasks are written in Perl, so everything is possible. See <a href="/howtos/perl.html" title="Just enough Perl for Rex">Perl Guide</a> for a small introduction to Perl. (Just enough Perl for Rex)</li>
+         </ul>
+
+         <div class="vspace"></div>
+
+         <h1>Need Help?</h1>
+         <div class="small-vspace"></div>
+         <ul class="simple-list">
+            <li>Join our <a href="https://groups.google.com/group/rex-users/">Google Group</a></li>
+            <li>IRC: Join us on <a href="http://webchat.freenode.net/?channels=rex">irc.freenode.net</a> -&gt; #rex</li>
+            <li>Sign in to our <a href="http://www.freelists.org/list/rex-users">mailinglist</a> (if you don't like google <img src="/images/smiley_wink.gif" />)</li>
+            <li><a href="https://rt.cpan.org/Dist/Display.html?Queue=Rex">Bug Tracker</a> on rt.cpan.org</li>
+            <li><a href="https://github.com/krimdomu/Rex/wiki">Wiki</a> on GitHub</li>
+         </ul>
+
+
+         <div class="vspace"></div>
+
+         <h1>Some Examples</h1>
+
+<!-- cli uptime -->
+
+         <div class="small-vspace"></div>
+         <h2>Uptime?</h2>
+         <p>This command line example will execute "uptime" on all the given hosts (frontend01, frontend02, ...).</p>
+         <div class="small-vspace"></div>
+
+         <div class="black-box">
+            <pre class="bash">rex -H "frontend[01..15] middleware[01..05] db[01..04]" "say run 'uptime'"</pre>
+         </div>
+
+         <div class="vspace"></div>
+         <h2>The same, but with a <i>Rexfile</i></h2>
+         <div class="small-vspace"></div>
+
+         <div class="black-box">
+            <pre class="perl">desc "Get uptime";
+task "uptime", sub {
+   say run "uptime";
+};</pre>
+         </div>
+
+         <div class="black-box">
+            <pre class="bash">rex -H "frontend[01..15] middleware[01..05] db[01..04]" uptime</pre>
+         </div>
+
+
+<!-- simple website deployment -->
+
+         <div class="vspace"></div>
+         <h2>Simple Website Deployment</h2>
+         <p>This example will sync all files (and directories) in <i>html</i> to <i>/var/www/rexify.org/html</i> on the server <i>rexify.org</i>.</p>
+         <div class="small-vspace"></div>
+
+         <div class="black-box">
+            <pre class="perl">
+
+user "my-user";
+password "my-password";
+
+pass_auth;
+
+desc "Upload website";
+task "upload", "rexify.org", sub {
+
+   sync "html/*", "/var/www/rexify.org/html";
+
+};</pre>
+         </div>
+
+
+<!-- simple service installation -->
+
+         <div class="vspace"></div>
+         <h2>Keep Your Configuration In Sync</h2>
+         <p>This example will install the Apache Webserver on 5 servers and keep the configuration in sync. If the configuration file was changed it will automatically reload apache.</p>
+         <p>If this task gets executed against a virgin host (where no apache is installed) it will first install it.</p>
+         <div class="small-vspace"></div>
+
+         <div class="black-box">
+            <pre class="perl">
+
+user "root";
+
+group "frontend" =&gt; "frontend[01..05]";
+
+desc "Prepare Frontend Server";
+task "prepare", group =&gt; "frontend", sub {
+
+   install package =&gt; "apache2";
+
+};
+
+desc "Keep Configuration in sync";
+task "configure", group =&gt; "frontend", sub {
+
+   needs "prepare";
+
+   file "/etc/httpd/conf/httpd.conf",
+        source =&gt; "files/etc/httpd/conf/httpd.conf",
+        on_change =&gt; service(httpd =&gt; "reload");
+
+};
+</pre>
+         </div>
+
+

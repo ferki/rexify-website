@@ -1,0 +1,694 @@
+[Fri May 11 15:09:28 2012] [info] Listening at "http://*:3000".
+[Fri May 11 15:09:32 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 15:09:32 2012] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:09:32 2012] [debug] Dispatching "WebApp::Example->welcome".
+[Fri May 11 15:09:32 2012] [debug] Rendering template "example/welcome.html.ep".
+[Fri May 11 15:09:32 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri May 11 15:09:32 2012] [error] Bareword "keywords" not allowed while "strict subs" in use at template "layouts/default.html.ep" line 11, near "".
+6: 
+7:       <link rel="stylesheet" href="/public/css/default.css?6" type="text/css" media="screen" charset="utf-8">
+8:       <link rel="stylesheet" href="/public/css/highlight.css?6" type="text/css" media="screen" charset="utf-8">
+9: 
+10:       <meta name="description" content="(R)?ex - manage all your boxes from a central point">
+11:       <meta name="keywords" content="<%= keywords %>">
+12: 
+13:       
+14:       
+15:    </head>
+16:    <body>
+
+[Fri May 11 15:09:32 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri May 11 15:09:32 2012] [debug] Template "exception.html.ep" not found.
+[Fri May 11 15:09:32 2012] [debug] Rendering inline template.
+[Fri May 11 15:09:32 2012] [debug] Rendering inline template.
+[Fri May 11 15:09:32 2012] [debug] 500 Internal Server Error (0.077222s, 12.950/s).
+[Fri May 11 15:09:33 2012] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:09:33 2012] [debug] Dispatching "WebApp::Example->welcome".
+[Fri May 11 15:09:33 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri May 11 15:09:33 2012] [error] Bareword "keywords" not allowed while "strict subs" in use at template "layouts/default.html.ep" line 11, near "".
+6: 
+7:       <link rel="stylesheet" href="/public/css/default.css?6" type="text/css" media="screen" charset="utf-8">
+8:       <link rel="stylesheet" href="/public/css/highlight.css?6" type="text/css" media="screen" charset="utf-8">
+9: 
+10:       <meta name="description" content="(R)?ex - manage all your boxes from a central point">
+11:       <meta name="keywords" content="<%= keywords %>">
+12: 
+13:       
+14:       
+15:    </head>
+16:    <body>
+
+[Fri May 11 15:09:33 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri May 11 15:09:33 2012] [debug] Template "exception.html.ep" not found.
+[Fri May 11 15:09:33 2012] [debug] 500 Internal Server Error (0.024540s, 40.750/s).
+[Fri May 11 15:10:40 2012] [info] Listening at "http://*:3000".
+[Fri May 11 15:10:43 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 15:10:43 2012] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:10:43 2012] [debug] Dispatching "WebApp::Example->welcome".
+[Fri May 11 15:10:43 2012] [debug] Rendering template "example/welcome.html.ep".
+[Fri May 11 15:10:43 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri May 11 15:10:43 2012] [error] Global symbol "$keywords" requires explicit package name at template "layouts/default.html.ep" line 11, near "".
+6: 
+7:       <link rel="stylesheet" href="/public/css/default.css?6" type="text/css" media="screen" charset="utf-8">
+8:       <link rel="stylesheet" href="/public/css/highlight.css?6" type="text/css" media="screen" charset="utf-8">
+9: 
+10:       <meta name="description" content="(R)?ex - manage all your boxes from a central point">
+11:       <meta name="keywords" content="<%= $keywords %>">
+12: 
+13:       
+14:       
+15:    </head>
+16:    <body>
+
+[Fri May 11 15:10:43 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri May 11 15:10:43 2012] [debug] Template "exception.html.ep" not found.
+[Fri May 11 15:10:43 2012] [debug] Rendering inline template.
+[Fri May 11 15:10:43 2012] [debug] Rendering inline template.
+[Fri May 11 15:10:43 2012] [debug] 500 Internal Server Error (0.044800s, 22.321/s).
+[Fri May 11 15:13:41 2012] [info] Listening at "http://*:3000".
+[Fri May 11 15:13:44 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 15:13:44 2012] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:13:44 2012] [debug] Dispatching "WebApp::Example->welcome".
+[Fri May 11 15:13:44 2012] [debug] Rendering template "example/welcome.html.ep".
+[Fri May 11 15:13:44 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri May 11 15:13:44 2012] [debug] 200 OK (0.020339s, 49.167/s).
+[Fri May 11 15:13:44 2012] [debug] GET /public/css/default.css (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:13:44 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri May 11 15:13:44 2012] [debug] Template "not_found.html.ep" not found.
+[Fri May 11 15:13:44 2012] [debug] Rendering inline template.
+[Fri May 11 15:13:44 2012] [debug] Rendering inline template.
+[Fri May 11 15:13:44 2012] [debug] 404 Not Found (0.024543s, 40.745/s).
+[Fri May 11 15:13:44 2012] [debug] GET /public/css/highlight.css (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:13:44 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri May 11 15:13:44 2012] [debug] Template "not_found.html.ep" not found.
+[Fri May 11 15:13:44 2012] [debug] 404 Not Found (0.007535s, 132.714/s).
+[Fri May 11 15:13:44 2012] [debug] GET /js/highlight.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:13:44 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri May 11 15:13:44 2012] [debug] Template "not_found.html.ep" not found.
+[Fri May 11 15:13:44 2012] [debug] 404 Not Found (0.007038s, 142.086/s).
+[Fri May 11 15:13:44 2012] [debug] GET /js/jquery-1.5.2.min.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:13:44 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri May 11 15:13:44 2012] [debug] Template "not_found.html.ep" not found.
+[Fri May 11 15:13:44 2012] [debug] 404 Not Found (0.006361s, 157.208/s).
+[Fri May 11 15:13:44 2012] [debug] GET /images/title.png (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:13:44 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri May 11 15:13:44 2012] [debug] Template "not_found.html.ep" not found.
+[Fri May 11 15:13:44 2012] [debug] 404 Not Found (0.009240s, 108.225/s).
+[Fri May 11 15:14:31 2012] [info] Listening at "http://*:3000".
+[Fri May 11 15:14:32 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 15:14:32 2012] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:14:32 2012] [debug] Dispatching "WebApp::Example->welcome".
+[Fri May 11 15:14:32 2012] [debug] Rendering template "example/welcome.html.ep".
+[Fri May 11 15:14:32 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri May 11 15:14:32 2012] [error] Global symbol "$keywords" requires explicit package name at template "layouts/default.html.ep" line 11, near "".
+6: 
+7:       <link rel="stylesheet" href="/public/css/default.css?6" type="text/css" media="screen" charset="utf-8">
+8:       <link rel="stylesheet" href="/public/css/highlight.css?6" type="text/css" media="screen" charset="utf-8">
+9: 
+10:       <meta name="description" content="(R)?ex - manage all your boxes from a central point">
+11:       <meta name="keywords" content="<%= $keywords %>">
+12: 
+13:       
+14:       
+15:    </head>
+16:    <body>
+
+[Fri May 11 15:14:32 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri May 11 15:14:32 2012] [debug] Template "exception.html.ep" not found.
+[Fri May 11 15:14:32 2012] [debug] Rendering inline template.
+[Fri May 11 15:14:32 2012] [debug] Rendering inline template.
+[Fri May 11 15:14:32 2012] [debug] 500 Internal Server Error (0.043364s, 23.061/s).
+[Fri May 11 15:14:53 2012] [info] Listening at "http://*:3000".
+[Fri May 11 15:14:54 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 15:14:54 2012] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:14:54 2012] [debug] Dispatching "WebApp::Example->welcome".
+[Fri May 11 15:14:54 2012] [debug] Rendering template "example/welcome.html.ep".
+[Fri May 11 15:14:54 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri May 11 15:14:54 2012] [debug] 200 OK (0.020864s, 47.929/s).
+[Fri May 11 15:14:55 2012] [debug] GET /public/css/default.css (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:14:55 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri May 11 15:14:55 2012] [debug] Template "not_found.html.ep" not found.
+[Fri May 11 15:14:55 2012] [debug] Rendering inline template.
+[Fri May 11 15:14:55 2012] [debug] Rendering inline template.
+[Fri May 11 15:14:55 2012] [debug] 404 Not Found (0.024610s, 40.634/s).
+[Fri May 11 15:14:55 2012] [debug] GET /public/css/highlight.css (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:14:55 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri May 11 15:14:55 2012] [debug] Template "not_found.html.ep" not found.
+[Fri May 11 15:14:55 2012] [debug] 404 Not Found (0.007473s, 133.815/s).
+[Fri May 11 15:14:55 2012] [debug] GET /js/highlight.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:14:55 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri May 11 15:14:55 2012] [debug] Template "not_found.html.ep" not found.
+[Fri May 11 15:14:55 2012] [debug] 404 Not Found (0.005963s, 167.701/s).
+[Fri May 11 15:14:55 2012] [debug] GET /js/jquery-1.5.2.min.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:14:55 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri May 11 15:14:55 2012] [debug] Template "not_found.html.ep" not found.
+[Fri May 11 15:14:55 2012] [debug] 404 Not Found (0.006004s, 166.556/s).
+[Fri May 11 15:14:55 2012] [debug] GET /images/title.png (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:14:55 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri May 11 15:14:55 2012] [debug] Template "not_found.html.ep" not found.
+[Fri May 11 15:14:55 2012] [debug] 404 Not Found (0.005980s, 167.224/s).
+[Fri May 11 15:17:36 2012] [info] Listening at "http://*:3000".
+[Fri May 11 15:17:38 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 15:17:38 2012] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:17:38 2012] [debug] Dispatching "WebApp::Example->welcome".
+[Fri May 11 15:17:38 2012] [debug] Rendering template "example/welcome.html.ep".
+[Fri May 11 15:17:38 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri May 11 15:17:38 2012] [debug] 200 OK (0.019624s, 50.958/s).
+[Fri May 11 15:17:38 2012] [debug] GET /public/css/default.css (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:17:38 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri May 11 15:17:38 2012] [debug] Template "not_found.html.ep" not found.
+[Fri May 11 15:17:38 2012] [debug] Rendering inline template.
+[Fri May 11 15:17:38 2012] [debug] Rendering inline template.
+[Fri May 11 15:17:38 2012] [debug] 404 Not Found (0.018069s, 55.343/s).
+[Fri May 11 15:17:38 2012] [debug] GET /public/css/highlight.css (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:17:38 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri May 11 15:17:38 2012] [debug] Template "not_found.html.ep" not found.
+[Fri May 11 15:17:38 2012] [debug] 404 Not Found (0.005996s, 166.778/s).
+[Fri May 11 15:17:38 2012] [debug] GET /js/highlight.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:17:38 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri May 11 15:17:38 2012] [debug] Template "not_found.html.ep" not found.
+[Fri May 11 15:17:38 2012] [debug] 404 Not Found (0.006257s, 159.821/s).
+[Fri May 11 15:17:38 2012] [debug] GET /js/jquery-1.5.2.min.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:17:38 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri May 11 15:17:38 2012] [debug] Template "not_found.html.ep" not found.
+[Fri May 11 15:17:38 2012] [debug] 404 Not Found (0.006335s, 157.853/s).
+[Fri May 11 15:17:38 2012] [debug] GET /images/title.png (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:17:38 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri May 11 15:17:38 2012] [debug] Template "not_found.html.ep" not found.
+[Fri May 11 15:17:38 2012] [debug] 404 Not Found (0.006476s, 154.416/s).
+[Fri May 11 15:24:52 2012] [info] Listening at "http://*:3000".
+[Fri May 11 15:24:53 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 15:24:53 2012] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:24:53 2012] [debug] Dispatching "WebApp::Example->welcome".
+[Fri May 11 15:24:53 2012] [debug] Rendering template "example/welcome.html.ep".
+[Fri May 11 15:24:53 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri May 11 15:24:53 2012] [debug] 200 OK (0.019941s, 50.148/s).
+[Fri May 11 15:24:53 2012] [debug] GET /public/css/default.css (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:24:53 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri May 11 15:24:53 2012] [debug] Template "not_found.html.ep" not found.
+[Fri May 11 15:24:53 2012] [debug] Rendering inline template.
+[Fri May 11 15:24:53 2012] [debug] Rendering inline template.
+[Fri May 11 15:24:53 2012] [debug] 404 Not Found (0.021318s, 46.909/s).
+[Fri May 11 15:24:53 2012] [debug] GET /public/css/highlight.css (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:24:53 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri May 11 15:24:53 2012] [debug] Template "not_found.html.ep" not found.
+[Fri May 11 15:24:53 2012] [debug] 404 Not Found (0.005979s, 167.252/s).
+[Fri May 11 15:24:53 2012] [debug] GET /js/highlight.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:24:53 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri May 11 15:24:53 2012] [debug] Template "not_found.html.ep" not found.
+[Fri May 11 15:24:53 2012] [debug] 404 Not Found (0.006166s, 162.180/s).
+[Fri May 11 15:24:53 2012] [debug] GET /js/jquery-1.5.2.min.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:24:53 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri May 11 15:24:53 2012] [debug] Template "not_found.html.ep" not found.
+[Fri May 11 15:24:53 2012] [debug] 404 Not Found (0.006344s, 157.629/s).
+[Fri May 11 15:24:57 2012] [debug] GET /public/css/default.css (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:24:57 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri May 11 15:24:57 2012] [debug] Template "not_found.html.ep" not found.
+[Fri May 11 15:24:57 2012] [debug] 404 Not Found (0.010203s, 98.010/s).
+[Fri May 11 15:25:12 2012] [info] Listening at "http://*:3000".
+[Fri May 11 15:25:15 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 15:25:15 2012] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:25:15 2012] [debug] Dispatching "WebApp::Example->welcome".
+[Fri May 11 15:25:15 2012] [debug] Rendering template "example/welcome.html.ep".
+[Fri May 11 15:25:15 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri May 11 15:25:15 2012] [debug] 200 OK (0.020071s, 49.823/s).
+[Fri May 11 15:25:15 2012] [debug] GET /js/jquery-1.5.2.min.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:25:15 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri May 11 15:25:15 2012] [debug] Template "not_found.html.ep" not found.
+[Fri May 11 15:25:15 2012] [debug] Rendering inline template.
+[Fri May 11 15:25:15 2012] [debug] Rendering inline template.
+[Fri May 11 15:25:15 2012] [debug] 404 Not Found (0.016710s, 59.844/s).
+[Fri May 11 15:25:15 2012] [debug] GET /js/highlight.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:25:15 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri May 11 15:25:15 2012] [debug] Template "not_found.html.ep" not found.
+[Fri May 11 15:25:15 2012] [debug] 404 Not Found (0.007257s, 137.798/s).
+[Fri May 11 15:25:44 2012] [info] Listening at "http://*:3000".
+[Fri May 11 15:25:46 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 15:25:51 2012] [debug] GET /public/images/title.png (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:25:51 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri May 11 15:25:51 2012] [debug] Template "not_found.html.ep" not found.
+[Fri May 11 15:25:51 2012] [debug] Rendering inline template.
+[Fri May 11 15:25:51 2012] [debug] Rendering inline template.
+[Fri May 11 15:25:51 2012] [debug] 404 Not Found (0.018368s, 54.443/s).
+[Fri May 11 15:26:18 2012] [info] Listening at "http://*:3000".
+[Fri May 11 15:26:20 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 15:27:32 2012] [info] Listening at "http://*:3000".
+[Fri May 11 15:27:34 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 15:27:34 2012] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:27:34 2012] [debug] Dispatching "WebApp::Example->welcome".
+[Fri May 11 15:27:34 2012] [debug] Rendering template "example/welcome.html.ep".
+[Fri May 11 15:27:34 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri May 11 15:27:34 2012] [debug] 200 OK (0.020376s, 49.077/s).
+[Fri May 11 15:27:34 2012] [debug] GET /js/highlight.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:27:34 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri May 11 15:27:34 2012] [debug] Template "not_found.html.ep" not found.
+[Fri May 11 15:27:34 2012] [debug] Rendering inline template.
+[Fri May 11 15:27:34 2012] [debug] Rendering inline template.
+[Fri May 11 15:27:34 2012] [debug] 404 Not Found (0.023081s, 43.326/s).
+[Fri May 11 15:27:34 2012] [debug] GET /js/jquery-1.5.2.min.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:27:34 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri May 11 15:27:34 2012] [debug] Template "not_found.html.ep" not found.
+[Fri May 11 15:27:34 2012] [debug] 404 Not Found (0.008919s, 112.120/s).
+[Fri May 11 15:27:42 2012] [debug] GET /images/ (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:27:42 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri May 11 15:27:42 2012] [debug] Template "not_found.html.ep" not found.
+[Fri May 11 15:27:42 2012] [debug] 404 Not Found (0.008831s, 113.237/s).
+[Fri May 11 15:28:32 2012] [info] Listening at "http://*:3000".
+[Fri May 11 15:28:35 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 15:28:56 2012] [info] Listening at "http://*:3000".
+[Fri May 11 15:29:04 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 15:29:04 2012] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:29:04 2012] [debug] Dispatching "WebApp::Example->welcome".
+[Fri May 11 15:29:04 2012] [debug] Rendering template "example/welcome.html.ep".
+[Fri May 11 15:29:04 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri May 11 15:29:04 2012] [debug] 200 OK (0.029074s, 34.395/s).
+[Fri May 11 15:29:04 2012] [debug] GET /js/jquery-1.5.2.min.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:29:04 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri May 11 15:29:04 2012] [debug] Template "not_found.html.ep" not found.
+[Fri May 11 15:29:04 2012] [debug] Rendering inline template.
+[Fri May 11 15:29:04 2012] [debug] Rendering inline template.
+[Fri May 11 15:29:04 2012] [debug] 404 Not Found (0.018340s, 54.526/s).
+[Fri May 11 15:29:04 2012] [debug] GET /js/highlight.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:29:04 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri May 11 15:29:04 2012] [debug] Template "not_found.html.ep" not found.
+[Fri May 11 15:29:04 2012] [debug] 404 Not Found (0.011425s, 87.527/s).
+[Fri May 11 15:36:01 2012] [info] Listening at "http://*:3000".
+[Fri May 11 15:36:02 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 15:36:02 2012] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:36:02 2012] [debug] Dispatching "WebApp::Content->index".
+[Fri May 11 15:36:02 2012] [debug] Rendering template "content/index.html.ep".
+[Fri May 11 15:36:02 2012] [debug] 200 OK (0.008615s, 116.077/s).
+[Fri May 11 15:36:04 2012] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:36:04 2012] [debug] Dispatching "WebApp::Content->index".
+[Fri May 11 15:36:04 2012] [debug] 200 OK (0.000949s, 1053.741/s).
+[Fri May 11 15:37:03 2012] [info] Listening at "http://*:3000".
+[Fri May 11 15:37:06 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 15:37:06 2012] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:37:06 2012] [debug] Dispatching "WebApp::Content->index".
+[Fri May 11 15:37:06 2012] [debug] Rendering template "content/index.html.ep".
+[Fri May 11 15:37:06 2012] [error] syntax error at template "content/index.html.ep" line 2, near "         <h1>What is (R)?ex</h1>".
+$_M "
+1: % layout 'default'
+2: 
+3:          <h1>What is (R)?ex</h1>
+4:          <p>With (R)?ex you can <b>manage all your boxes</b> from a central point through the complete process of configuration management and software deployment.</p>
+5:          <div class="small-vspace"></div>
+6: 
+7:          <p>Start exploring (R)?ex with this <a href="howtos/start.html">First Steps Guide</a>.</p>
+
+[Fri May 11 15:37:06 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri May 11 15:37:06 2012] [debug] Template "exception.html.ep" not found.
+[Fri May 11 15:37:06 2012] [debug] Rendering inline template.
+[Fri May 11 15:37:06 2012] [debug] Rendering inline template.
+[Fri May 11 15:37:06 2012] [debug] 500 Internal Server Error (0.035904s, 27.852/s).
+[Fri May 11 15:37:29 2012] [info] Listening at "http://*:3000".
+[Fri May 11 15:37:31 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 15:37:31 2012] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:37:31 2012] [debug] Dispatching "WebApp::Content->index".
+[Fri May 11 15:37:31 2012] [debug] Rendering template "content/index.html.ep".
+[Fri May 11 15:37:31 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri May 11 15:37:31 2012] [debug] 200 OK (0.022280s, 44.883/s).
+[Fri May 11 15:37:31 2012] [debug] GET /js/jquery-1.5.2.min.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:37:31 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri May 11 15:37:31 2012] [debug] Template "not_found.html.ep" not found.
+[Fri May 11 15:37:31 2012] [debug] Rendering inline template.
+[Fri May 11 15:37:31 2012] [debug] Rendering inline template.
+[Fri May 11 15:37:31 2012] [debug] 404 Not Found (0.020577s, 48.598/s).
+[Fri May 11 15:37:31 2012] [debug] GET /js/highlight.js (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 15:37:31 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri May 11 15:37:31 2012] [debug] Template "not_found.html.ep" not found.
+[Fri May 11 15:37:31 2012] [debug] 404 Not Found (0.006048s, 165.344/s).
+[Fri May 11 16:45:06 2012] [info] Listening at "http://*:3000".
+[Fri May 11 16:45:11 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 16:45:11 2012] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 16:45:11 2012] [debug] Dispatching "WebApp::Content->index".
+[Fri May 11 16:45:11 2012] [debug] Rendering template "content/index.html.ep".
+[Fri May 11 16:45:11 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri May 11 16:45:11 2012] [debug] 200 OK (0.022333s, 44.777/s).
+[Fri May 11 16:46:08 2012] [info] Listening at "http://*:3000".
+[Fri May 11 16:46:12 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 16:46:12 2012] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 16:46:12 2012] [debug] Dispatching "WebApp::Content->index".
+[Fri May 11 16:46:12 2012] [debug] Rendering template "content/index.html.ep".
+[Fri May 11 16:46:12 2012] [debug] Rendering template "layouts/index.html.ep".
+[Fri May 11 16:46:12 2012] [debug] 200 OK (0.024289s, 41.171/s).
+[Fri May 11 16:54:12 2012] [info] Listening at "http://*:3000".
+[Fri May 11 16:54:17 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 16:54:17 2012] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 16:54:17 2012] [debug] Dispatching "WebApp::Content->index".
+[Fri May 11 16:54:17 2012] [debug] Rendering template "content/index.html.ep".
+[Fri May 11 16:54:17 2012] [debug] Rendering template "layouts/index.html.ep".
+[Fri May 11 16:54:17 2012] [debug] 200 OK (0.026217s, 38.143/s).
+[Fri May 11 16:54:20 2012] [debug] GET /dfg (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 16:54:20 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri May 11 16:54:20 2012] [debug] Template "not_found.html.ep" not found.
+[Fri May 11 16:54:20 2012] [debug] Rendering inline template.
+[Fri May 11 16:54:20 2012] [debug] Rendering inline template.
+[Fri May 11 16:54:20 2012] [debug] 404 Not Found (0.025779s, 38.791/s).
+[Fri May 11 16:54:34 2012] [info] Listening at "http://*:3000".
+[Fri May 11 16:54:35 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 16:54:35 2012] [debug] GET /dfg (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 16:54:35 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri May 11 16:54:35 2012] [debug] Template "not_found.html.ep" not found.
+[Fri May 11 16:54:35 2012] [debug] Rendering inline template.
+[Fri May 11 16:54:35 2012] [debug] Rendering inline template.
+[Fri May 11 16:54:35 2012] [debug] 404 Not Found (0.017248s, 57.978/s).
+[Fri May 11 16:54:41 2012] [info] Listening at "http://*:3000".
+[Fri May 11 16:54:42 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 16:54:42 2012] [debug] GET /dfg (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 16:54:42 2012] [debug] Dispatching "WebApp::Content->index".
+[Fri May 11 16:54:42 2012] [debug] Rendering template "content/index.html.ep".
+[Fri May 11 16:54:42 2012] [debug] Rendering template "layouts/index.html.ep".
+[Fri May 11 16:54:42 2012] [debug] 200 OK (0.022569s, 44.309/s).
+[Fri May 11 16:54:45 2012] [debug] GET /dfg/dfdfg (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 16:54:45 2012] [debug] Dispatching "WebApp::Content->index".
+[Fri May 11 16:54:45 2012] [debug] 200 OK (0.002017s, 495.786/s).
+[Fri May 11 16:56:51 2012] [info] Listening at "http://*:3000".
+[Fri May 11 16:56:52 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 16:56:52 2012] [debug] GET /dfg/dfdfg (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 16:56:52 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 16:56:52 2012] [debug] 200 OK (0.001476s, 677.507/s).
+[Fri May 11 16:57:04 2012] [info] Listening at "http://*:3000".
+[Fri May 11 16:57:05 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 16:57:05 2012] [debug] GET /dfg/dfdfg (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 16:57:05 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 16:57:05 2012] [error] Can't locate object method "ctx" via package "WebApp::Content" at /usr/lib64/perl5/site_perl/5.12.4/Mojolicious/Routes.pm line 373
+
+[Fri May 11 16:57:05 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri May 11 16:57:05 2012] [debug] Template "exception.html.ep" not found.
+[Fri May 11 16:57:05 2012] [debug] Rendering inline template.
+[Fri May 11 16:57:05 2012] [debug] Rendering inline template.
+[Fri May 11 16:57:05 2012] [debug] 500 Internal Server Error (0.027219s, 36.739/s).
+[Fri May 11 16:57:05 2012] [error] Can't locate object method "ctx" via package "WebApp::Content" at /usr/lib64/perl5/site_perl/5.12.4/Mojolicious/Routes.pm line 373
+
+[Fri May 11 16:57:29 2012] [info] Listening at "http://*:3000".
+[Fri May 11 16:57:32 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 16:57:32 2012] [debug] GET /dfg/dfdfg (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 16:57:32 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 16:57:32 2012] [error] Can't locate object method "ctx" via package "WebApp::Content" at /usr/lib64/perl5/site_perl/5.12.4/Mojolicious/Routes.pm line 373
+
+[Fri May 11 16:57:32 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri May 11 16:57:32 2012] [debug] Template "exception.html.ep" not found.
+[Fri May 11 16:57:32 2012] [debug] Rendering inline template.
+[Fri May 11 16:57:32 2012] [debug] Rendering inline template.
+[Fri May 11 16:57:32 2012] [debug] 500 Internal Server Error (0.028057s, 35.642/s).
+[Fri May 11 16:57:32 2012] [error] Can't locate object method "ctx" via package "WebApp::Content" at /usr/lib64/perl5/site_perl/5.12.4/Mojolicious/Routes.pm line 373
+
+[Fri May 11 16:57:43 2012] [info] Listening at "http://*:3000".
+[Fri May 11 16:57:44 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 16:57:44 2012] [debug] GET /dfg/dfdfg (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 16:57:44 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 16:57:44 2012] [debug] 200 OK (0.001766s, 566.251/s).
+[Fri May 11 16:58:42 2012] [info] Listening at "http://*:3000".
+[Fri May 11 16:58:45 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 16:58:45 2012] [debug] GET /dfg/dfdfg (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 16:58:45 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 16:58:45 2012] [debug] 200 OK (0.001441s, 693.963/s).
+[Fri May 11 16:59:36 2012] [info] Listening at "http://*:3000".
+[Fri May 11 16:59:37 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 16:59:37 2012] [debug] GET /dfg/dfdfg (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 16:59:37 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 16:59:37 2012] [debug] 200 OK (0.001638s, 610.501/s).
+[Fri May 11 17:02:15 2012] [info] Listening at "http://*:3000".
+[Fri May 11 17:02:20 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 17:02:20 2012] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:02:20 2012] [debug] Dispatching "WebApp::Content->index".
+[Fri May 11 17:02:20 2012] [debug] Rendering template "content/index.html.ep".
+[Fri May 11 17:02:20 2012] [debug] Rendering template "layouts/index.html.ep".
+[Fri May 11 17:02:20 2012] [debug] 200 OK (0.030202s, 33.110/s).
+[Fri May 11 17:02:54 2012] [info] Listening at "http://*:3000".
+[Fri May 11 17:02:58 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 17:02:58 2012] [debug] GET /get (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:02:58 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 17:02:58 2012] [debug] Template "content/serve.html.ep" not found.
+[Fri May 11 17:02:58 2012] [debug] Template "content/serve.html.ep" not found.
+[Fri May 11 17:02:58 2012] [debug] Nothing has been rendered, assuming delayed response.
+[Fri May 11 17:03:51 2012] [info] Listening at "http://*:3000".
+[Fri May 11 17:03:57 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 17:03:57 2012] [debug] GET /get/index.html (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:03:57 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 17:03:57 2012] [debug] Rendering template "content/serve.html.ep".
+[Fri May 11 17:03:57 2012] [debug] 200 OK (0.008317s, 120.236/s).
+[Fri May 11 17:04:13 2012] [info] Listening at "http://*:3000".
+[Fri May 11 17:04:15 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 17:04:15 2012] [debug] GET /get/index.html (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:04:15 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 17:04:15 2012] [debug] Rendering template "content/serve.html.ep".
+[Fri May 11 17:04:15 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri May 11 17:04:15 2012] [debug] 200 OK (0.024765s, 40.380/s).
+[Fri May 11 17:04:27 2012] [info] Listening at "http://*:3000".
+[Fri May 11 17:04:28 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 17:04:28 2012] [debug] GET /get/index.html (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:04:28 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 17:04:28 2012] [debug] Rendering template "content/serve.html.ep".
+[Fri May 11 17:04:28 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri May 11 17:04:28 2012] [debug] 200 OK (0.023695s, 42.203/s).
+[Fri May 11 17:04:52 2012] [info] Listening at "http://*:3000".
+[Fri May 11 17:04:53 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 17:04:53 2012] [debug] GET /get/index.html (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:04:53 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 17:04:53 2012] [debug] Rendering template "content/serve.html.ep".
+[Fri May 11 17:04:53 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri May 11 17:04:53 2012] [debug] 200 OK (0.023667s, 42.253/s).
+[Fri May 11 17:05:15 2012] [info] Listening at "http://*:3000".
+[Fri May 11 17:05:16 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 17:05:16 2012] [debug] GET /get/index.html (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:05:16 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 17:05:16 2012] [debug] Rendering template "content/serve.html.ep".
+[Fri May 11 17:05:16 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri May 11 17:05:16 2012] [debug] 200 OK (0.024941s, 40.095/s).
+[Fri May 11 17:06:00 2012] [info] Listening at "http://*:3000".
+[Fri May 11 17:06:01 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 17:06:01 2012] [debug] GET /get/index.html (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:06:01 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 17:06:01 2012] [error] Datei oder Verzeichnis nicht gefunden at script/../lib/WebApp/Content.pm line 18.
+
+[Fri May 11 17:06:01 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri May 11 17:06:01 2012] [debug] Template "exception.html.ep" not found.
+[Fri May 11 17:06:01 2012] [debug] Rendering inline template.
+[Fri May 11 17:06:01 2012] [debug] Rendering inline template.
+[Fri May 11 17:06:01 2012] [debug] 500 Internal Server Error (0.027228s, 36.727/s).
+[Fri May 11 17:06:01 2012] [error] Datei oder Verzeichnis nicht gefunden at script/../lib/WebApp/Content.pm line 18.
+
+[Fri May 11 17:06:23 2012] [info] Listening at "http://*:3000".
+[Fri May 11 17:06:24 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 17:06:24 2012] [debug] GET /get/index.html (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:06:24 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 17:06:24 2012] [error] Datei oder Verzeichnis nicht gefunden at script/../lib/WebApp/Content.pm line 18.
+
+[Fri May 11 17:06:24 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri May 11 17:06:24 2012] [debug] Template "exception.html.ep" not found.
+[Fri May 11 17:06:24 2012] [debug] Rendering inline template.
+[Fri May 11 17:06:24 2012] [debug] Rendering inline template.
+[Fri May 11 17:06:24 2012] [debug] 500 Internal Server Error (0.026937s, 37.124/s).
+[Fri May 11 17:06:24 2012] [error] Datei oder Verzeichnis nicht gefunden at script/../lib/WebApp/Content.pm line 18.
+
+[Fri May 11 17:06:40 2012] [info] Listening at "http://*:3000".
+[Fri May 11 17:06:40 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 17:06:40 2012] [debug] GET /get/index.html (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:06:40 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 17:06:40 2012] [error] Datei oder Verzeichnis nicht gefundencontent/get/index.html.html at script/../lib/WebApp/Content.pm line 18.
+
+[Fri May 11 17:06:40 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri May 11 17:06:40 2012] [debug] Template "exception.html.ep" not found.
+[Fri May 11 17:06:40 2012] [debug] Rendering inline template.
+[Fri May 11 17:06:40 2012] [debug] Rendering inline template.
+[Fri May 11 17:06:40 2012] [debug] 500 Internal Server Error (0.026802s, 37.311/s).
+[Fri May 11 17:06:40 2012] [error] Datei oder Verzeichnis nicht gefundencontent/get/index.html.html at script/../lib/WebApp/Content.pm line 18.
+
+[Fri May 11 17:07:13 2012] [info] Listening at "http://*:3000".
+[Fri May 11 17:07:14 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 17:07:14 2012] [debug] GET /get/index.html (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:07:14 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 17:07:14 2012] [error] Datei oder Verzeichnis nicht gefundencontent//get/index.html at script/../lib/WebApp/Content.pm line 18.
+
+[Fri May 11 17:07:14 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri May 11 17:07:14 2012] [debug] Template "exception.html.ep" not found.
+[Fri May 11 17:07:14 2012] [debug] Rendering inline template.
+[Fri May 11 17:07:14 2012] [debug] Rendering inline template.
+[Fri May 11 17:07:14 2012] [debug] 500 Internal Server Error (0.027881s, 35.867/s).
+[Fri May 11 17:07:14 2012] [error] Datei oder Verzeichnis nicht gefundencontent//get/index.html at script/../lib/WebApp/Content.pm line 18.
+
+[Fri May 11 17:07:23 2012] [info] Listening at "http://*:3000".
+[Fri May 11 17:07:25 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 17:07:25 2012] [debug] GET /get/index.html (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:07:25 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 17:07:25 2012] [error] Datei oder Verzeichnis nicht gefundencontent/get/index.html at script/../lib/WebApp/Content.pm line 18.
+
+[Fri May 11 17:07:25 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri May 11 17:07:25 2012] [debug] Template "exception.html.ep" not found.
+[Fri May 11 17:07:25 2012] [debug] Rendering inline template.
+[Fri May 11 17:07:25 2012] [debug] Rendering inline template.
+[Fri May 11 17:07:25 2012] [debug] 500 Internal Server Error (0.027619s, 36.207/s).
+[Fri May 11 17:07:25 2012] [error] Datei oder Verzeichnis nicht gefundencontent/get/index.html at script/../lib/WebApp/Content.pm line 18.
+
+[Fri May 11 17:07:31 2012] [info] Listening at "http://*:3000".
+[Fri May 11 17:07:32 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 17:07:32 2012] [debug] GET /get/index.html (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:07:32 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 17:07:32 2012] [debug] Rendering template "content/serve.html.ep".
+[Fri May 11 17:07:32 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri May 11 17:07:32 2012] [debug] 200 OK (0.020877s, 47.900/s).
+[Fri May 11 17:07:56 2012] [info] Listening at "http://*:3000".
+[Fri May 11 17:07:57 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 17:07:57 2012] [debug] GET /get/index.html (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:07:57 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 17:07:57 2012] [debug] Rendering template "content/serve.html.ep".
+[Fri May 11 17:07:57 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri May 11 17:07:57 2012] [debug] 200 OK (0.021386s, 46.760/s).
+[Fri May 11 17:08:23 2012] [info] Listening at "http://*:3000".
+[Fri May 11 17:08:24 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 17:08:24 2012] [debug] GET /get/index.html (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:08:24 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 17:08:24 2012] [debug] Rendering template "content/serve.html.ep".
+[Fri May 11 17:08:24 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri May 11 17:08:24 2012] [debug] 200 OK (0.020439s, 48.926/s).
+[Fri May 11 17:08:32 2012] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:08:32 2012] [debug] Dispatching "WebApp::Content->index".
+[Fri May 11 17:08:32 2012] [debug] Rendering template "content/index.html.ep".
+[Fri May 11 17:08:32 2012] [debug] Rendering template "layouts/index.html.ep".
+[Fri May 11 17:08:32 2012] [debug] 200 OK (0.012978s, 77.053/s).
+[Fri May 11 17:08:34 2012] [debug] GET /get (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:08:34 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 17:08:34 2012] [debug] 200 OK (0.002112s, 473.485/s).
+[Fri May 11 17:08:44 2012] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:08:44 2012] [debug] Dispatching "WebApp::Content->index".
+[Fri May 11 17:08:44 2012] [debug] 200 OK (0.001329s, 752.445/s).
+[Fri May 11 17:12:51 2012] [info] Listening at "http://*:3000".
+[Fri May 11 17:12:52 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 17:12:52 2012] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:12:52 2012] [debug] Dispatching "WebApp::Content->index".
+[Fri May 11 17:12:52 2012] [debug] Rendering template "content/index.html.ep".
+[Fri May 11 17:12:52 2012] [debug] Rendering template "layouts/index.html.ep".
+[Fri May 11 17:12:52 2012] [debug] 200 OK (0.025555s, 39.131/s).
+[Fri May 11 17:12:55 2012] [debug] GET /howtos/start.html (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:12:55 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 17:12:55 2012] [debug] Rendering template "content/serve.html.ep".
+[Fri May 11 17:12:55 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri May 11 17:12:55 2012] [debug] 200 OK (0.010292s, 97.163/s).
+[Fri May 11 17:13:01 2012] [debug] GET /get (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:13:01 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 17:13:01 2012] [debug] 200 OK (0.001837s, 544.366/s).
+[Fri May 11 17:13:03 2012] [debug] GET /modules (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:13:03 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 17:13:03 2012] [debug] 200 OK (0.001465s, 682.594/s).
+[Fri May 11 17:13:31 2012] [debug] GET /application_deployment.html (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:13:31 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 17:13:31 2012] [error] Datei oder Verzeichnis nicht gefundencontent/application_deployment.html at script/../lib/WebApp/Content.pm line 18.
+
+[Fri May 11 17:13:31 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri May 11 17:13:31 2012] [debug] Template "exception.html.ep" not found.
+[Fri May 11 17:13:31 2012] [debug] Rendering inline template.
+[Fri May 11 17:13:31 2012] [debug] Rendering inline template.
+[Fri May 11 17:13:31 2012] [debug] 500 Internal Server Error (0.024598s, 40.654/s).
+[Fri May 11 17:13:31 2012] [error] Datei oder Verzeichnis nicht gefundencontent/application_deployment.html at script/../lib/WebApp/Content.pm line 18.
+
+[Fri May 11 17:15:33 2012] [info] Listening at "http://*:3000".
+[Fri May 11 17:15:35 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 17:15:35 2012] [debug] GET /modules (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:15:35 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 17:15:35 2012] [debug] Rendering template "content/serve.html.ep".
+[Fri May 11 17:15:35 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri May 11 17:15:35 2012] [debug] 200 OK (0.022865s, 43.735/s).
+[Fri May 11 17:15:36 2012] [debug] GET /modules/application_deployment.html (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:15:36 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 17:15:36 2012] [debug] 200 OK (0.001895s, 527.704/s).
+[Fri May 11 17:15:45 2012] [debug] GET /get (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:15:45 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 17:15:45 2012] [debug] 200 OK (0.001692s, 591.017/s).
+[Fri May 11 17:15:48 2012] [debug] GET /modules (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:15:48 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 17:15:48 2012] [debug] 200 OK (0.001613s, 619.963/s).
+[Fri May 11 17:15:49 2012] [debug] GET /howtos (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:15:49 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 17:15:49 2012] [debug] 200 OK (0.001399s, 714.796/s).
+[Fri May 11 17:15:51 2012] [debug] GET /howtos/tail.html (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:15:51 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 17:15:51 2012] [debug] 200 OK (0.002128s, 469.925/s).
+[Fri May 11 17:15:59 2012] [debug] GET /french.html (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:15:59 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 17:15:59 2012] [error] Datei oder Verzeichnis nicht gefundencontent/french.html at script/../lib/WebApp/Content.pm line 18.
+
+[Fri May 11 17:15:59 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri May 11 17:15:59 2012] [debug] Template "exception.html.ep" not found.
+[Fri May 11 17:15:59 2012] [debug] Rendering inline template.
+[Fri May 11 17:15:59 2012] [debug] Rendering inline template.
+[Fri May 11 17:15:59 2012] [debug] 500 Internal Server Error (0.024684s, 40.512/s).
+[Fri May 11 17:15:59 2012] [error] Datei oder Verzeichnis nicht gefundencontent/french.html at script/../lib/WebApp/Content.pm line 18.
+
+[Fri May 11 17:16:29 2012] [debug] GET /howtos (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:16:29 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 17:16:29 2012] [debug] 200 OK (0.001318s, 758.725/s).
+[Fri May 11 17:16:41 2012] [debug] GET /howtos (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:16:41 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 17:16:41 2012] [debug] 200 OK (0.001306s, 765.697/s).
+[Fri May 11 17:16:43 2012] [debug] GET /howto/french.html (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:16:43 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 17:16:43 2012] [error] Datei oder Verzeichnis nicht gefundencontent/howto/french.html at script/../lib/WebApp/Content.pm line 18.
+
+[Fri May 11 17:16:43 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri May 11 17:16:43 2012] [debug] Template "exception.html.ep" not found.
+[Fri May 11 17:16:43 2012] [debug] 500 Internal Server Error (0.009619s, 103.961/s).
+[Fri May 11 17:16:43 2012] [error] Datei oder Verzeichnis nicht gefundencontent/howto/french.html at script/../lib/WebApp/Content.pm line 18.
+
+[Fri May 11 17:16:50 2012] [debug] GET /howtos (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:16:50 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 17:16:50 2012] [debug] 200 OK (0.001206s, 829.187/s).
+[Fri May 11 17:16:51 2012] [debug] GET /howtos/french.html (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:16:51 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 17:16:51 2012] [debug] 200 OK (0.004048s, 247.036/s).
+[Fri May 11 17:17:16 2012] [debug] GET /howtos/french.html (Mozilla/5.0 (X11; Linux x86_64; rv:10.0.4) Gecko/20100101 Firefox/10.0.4).
+[Fri May 11 17:17:16 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 17:17:16 2012] [debug] 200 OK (0.002125s, 470.588/s).
+[Fri May 11 17:17:20 2012] [debug] GET /howtos/french.html (Mozilla/5.0 (X11; Linux x86_64; rv:10.0.4) Gecko/20100101 Firefox/10.0.4).
+[Fri May 11 17:17:20 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 17:17:20 2012] [debug] 200 OK (0.002215s, 451.467/s).
+[Fri May 11 17:17:56 2012] [info] Listening at "http://*:3000".
+[Fri May 11 17:17:58 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 17:17:58 2012] [debug] GET /howtos/french.html (Mozilla/5.0 (X11; Linux x86_64; rv:10.0.4) Gecko/20100101 Firefox/10.0.4).
+[Fri May 11 17:17:58 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 17:17:58 2012] [debug] Rendering template "content/serve.html.ep".
+[Fri May 11 17:17:58 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri May 11 17:17:58 2012] [debug] 200 OK (0.022265s, 44.914/s).
+[Fri May 11 17:18:48 2012] [info] Listening at "http://*:3000".
+[Fri May 11 17:18:52 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 17:18:52 2012] [debug] GET /howtos/french.html (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:18:52 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 17:18:52 2012] [debug] Rendering template "content/serve.html.ep".
+[Fri May 11 17:18:52 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri May 11 17:18:52 2012] [debug] 200 OK (0.045630s, 21.915/s).
+[Fri May 11 17:18:55 2012] [debug] GET /modules (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:18:55 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 17:18:55 2012] [debug] 200 OK (0.002072s, 482.625/s).
+[Fri May 11 17:18:56 2012] [debug] GET /howtos (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:18:56 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 17:18:56 2012] [debug] 200 OK (0.002376s, 420.875/s).
+[Fri May 11 17:26:45 2012] [info] Listening at "http://*:3000".
+[Fri May 11 17:26:53 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri May 11 17:26:53 2012] [debug] GET /howtos (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:26:53 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 17:26:53 2012] [debug] Rendering template "content/serve.html.ep".
+[Fri May 11 17:26:53 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri May 11 17:26:53 2012] [debug] 200 OK (0.023980s, 41.701/s).
+[Fri May 11 17:27:01 2012] [debug] GET /modules (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:27:01 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 17:27:01 2012] [debug] 200 OK (0.002073s, 482.393/s).
+[Fri May 11 17:27:03 2012] [debug] GET /get (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:27:03 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 17:27:03 2012] [debug] 200 OK (0.001910s, 523.560/s).
+[Fri May 11 17:27:08 2012] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:27:08 2012] [debug] Dispatching "WebApp::Content->index".
+[Fri May 11 17:27:08 2012] [debug] Rendering template "content/index.html.ep".
+[Fri May 11 17:27:08 2012] [debug] Rendering template "layouts/index.html.ep".
+[Fri May 11 17:27:08 2012] [debug] 200 OK (0.010712s, 93.353/s).
+[Fri May 11 17:27:11 2012] [debug] GET /feature.html (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19).
+[Fri May 11 17:27:11 2012] [debug] Dispatching "WebApp::Content->serve".
+[Fri May 11 17:27:11 2012] [error] Datei oder Verzeichnis nicht gefundencontent/feature.html at script/../lib/WebApp/Content.pm line 16.
+
+[Fri May 11 17:27:11 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri May 11 17:27:11 2012] [debug] Template "exception.html.ep" not found.
+[Fri May 11 17:27:11 2012] [debug] Rendering inline template.
+[Fri May 11 17:27:11 2012] [debug] Rendering inline template.
+[Fri May 11 17:27:11 2012] [debug] 500 Internal Server Error (0.027341s, 36.575/s).
+[Fri May 11 17:27:11 2012] [error] Datei oder Verzeichnis nicht gefundencontent/feature.html at script/../lib/WebApp/Content.pm line 16.
+
