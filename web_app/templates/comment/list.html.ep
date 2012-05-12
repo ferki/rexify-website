@@ -1,0 +1,10 @@
+<div class="vspace"></div>
+
+<h1>Comments</h1>
+
+%= include 'comment/new';
+
+<div class="vspace"></div>
+
+%= include 'comment/comment';
+

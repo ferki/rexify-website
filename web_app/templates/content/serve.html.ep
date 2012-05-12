@@ -2,3 +2,5 @@
 
 <%== $page_content %>
 
+%= include 'comment/list';
+

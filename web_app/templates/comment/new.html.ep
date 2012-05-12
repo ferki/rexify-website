@@ -1,0 +1,42 @@
+<form action="#comments" method="post">
+   <div >
+      <table border="0">
+         <tr>
+            <td width="150">
+               <label for="email">E-Mail or Name</label>
+            </td>
+            <td>
+               <input type="text" name="email" id="email" size="30" value="" />
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <label for="question">Please calculate: 5+9</label>
+            </td>
+            <td>
+               <input type="text" name="question" id="question" size="30" />
+            </td>
+         </tr>
+         <tr>
+            <td valign="top">
+               <label for="comment">Comment</label><br />
+               <br />
+               <i>Use [code]...[/code] for a code block.</i>
+            </td>
+            <td>
+               <textarea cols="50" rows="10" name="comment" id="comment"></textarea>
+            </td>
+         </tr>
+         <tr>
+            <td>
+               &nbsp;
+            </td>
+            <td>
+               <input type="submit" value="Post" /> 
+            </td>
+         </tr>
+      </table>
+   </div>
+</form>
+
+

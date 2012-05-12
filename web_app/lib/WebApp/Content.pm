@@ -1,6 +1,8 @@
 package WebApp::Content;
 use Mojo::Base 'Mojolicious::Controller';
 
+use Data::Dumper;
+
 sub index {
    my $self = shift;
    $self->render;
@@ -11,16 +13,11 @@ sub serve {
 
    my $url = $self->tx->req->url->to_string;
    if($url !~ m/\.html$/) { $url .= "/index.html"; }
+   $url =~ s/^\///;
 
-   my $file_content = "";
-   open(my $fh, "<:encoding(UTF-8)", "content$url") or die($! . "content$url");
-   my @c = <$fh>;
-   close($fh);
-   chomp @c;
+   my $page = DB::Model::Content->find($url);
 
-   $file_content = join("\n", @c);
-
-   $self->render(page_content => $file_content);
+   $self->render(page_content => $page->content);
 }
 
 1;

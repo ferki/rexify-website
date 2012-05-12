@@ -1,0 +1,50 @@
+<div class="user_comment">
+   <h1>md_doc@interia.pl - 2011-08-23 18:13:50 <a style="float: right;" href="javascript:$('#comment_for_10').toggle()">Comment</a></h1>
+   <div class="text">
+      And I thought I was the sensible one. Thanks for steting me straight.
+      <div id="comment_for_10" class="comment_form" >
+         <form action="#comments" method="post">
+            <input type="hidden" name="comment_id" value="10" />
+            <table border="0">
+               <tr>
+                  <td width="150">
+                     <label for="email">E-Mail or Name</label>
+                  </td>
+                  <td>
+                     <input type="text" name="email" id="email" size="30" value="" />
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <label for="question">Please calculate: 5+9</label>
+                  </td>
+                  <td>
+                     <input type="text" name="question" id="question" size="30" />
+                  </td>
+               </tr>
+               <tr>
+                  <td valign="top">
+                     <label for="comment">Comment</label><br />
+                     <br />
+                     <i>Use [code]...[/code] for a code block.</i>
+                  </td>
+                  <td>
+                     <textarea cols="50" rows="10" name="comment" id="comment"></textarea>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     &nbsp;
+                  </td>
+                  <td>
+                     <input type="submit" value="Post" /> 
+                  </td>
+               </tr>
+            </table>
+         </form>
+      </div>
+
+   </div>
+</div>
+
+<div class="vspace"></div>
