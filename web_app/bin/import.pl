@@ -38,14 +38,47 @@ sub import_file {
    close($fh);
    chomp @c;
 
+   my $s = join("\n", @c);
+   my ($title) = ($s =~ m/<title>([^<]+)<\/title>/ims);
+
+   print "$file > $title\n";
+
+   my ($keywords) = ($s =~ m/name="keywords" content="([^"]+)"/);
+   my ($desc) = ($s =~ m/name="description" content="([^"]+)"/);
+   my ($page) = ($s =~ m/<div id="page">(.*?)<!\-\-\{\$page_footer\}\-\->/msi);
+   $page =~ s/<\/div>\s*$//;
+
+   $page =~ s/href=\"([^"]+)\"/fix_link($file, $1)/egmsi;
+
    my $sth = $dbh->prepare("REPLACE INTO `content` (`path`, `title`, `keywords`, `desc`, `content`) VALUES(?, ?, ?, ?, ?)");
 
+   $title    ||= '';
+   $keywords ||= '';
+   $desc     ||= '';
+   $page     ||= '';
+
    $sth->bind_param(1, substr($file, 2));
-   $sth->bind_param(2, '');
-   $sth->bind_param(3, '');
-   $sth->bind_param(4, '');
-   $sth->bind_param(5, join("\n", @c));
+   $sth->bind_param(2, $title);
+   $sth->bind_param(3, $keywords);
+   $sth->bind_param(4, $desc);
+   $sth->bind_param(5, $page);
 
    $sth->execute;
+}
+
+sub fix_link {
+   my ($file, $link) = @_;
+   print "FIX LINK ($file -> $link)\n";
+
+
+
+   if($link !~ m/^\// && $link !~ m/^http/) {
+      my $dir = dirname($file);
+      $dir =~ s/^\.\//\//;
+
+      return 'href="' . "$dir/$link" . '"';
+   }
+
+   return 'href="' . $link . '"';
 }
 
