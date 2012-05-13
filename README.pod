@@ -1,6 +1,22 @@
 =pod
 
-=head2 This is the code for rexify.org
+=head2 Code for rexify.org
 
-Don't blame me for the code... i'm hating creating websites...
+To setup you need the following things:
+
+=over 4
+
+=item Mojolicious
+
+L<http://mojolicio.us/>
+
+=item DBD::mysql
+
+=item DM4P
+
+L<http://github.com/krimdomu/dm4p>
+
+L<http://github.com/krimdomu/dm4p-adapter-mysql>
+
+=cut
 
