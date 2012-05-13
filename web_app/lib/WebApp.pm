@@ -7,6 +7,8 @@ use DM4P::DM;
 
 use DB::Model::Content;
 
+use Data::Dumper;
+
 # This method will run once at server start
 sub startup {
    my $self = shift;
@@ -15,7 +17,19 @@ sub startup {
    $self->plugin('PODRenderer');
    my $config = $self->plugin("Config");
 
-   $self->helper(keywords => sub { return ""; });
+   for my $t (qw/keywords desc title/) {
+      $self->helper($t => sub {
+         my ($self) = @_;
+
+         my $url = $self->tx->req->url->to_string;
+         if($url !~ m/\.html$/) { $url .= "/index.html"; }
+         $url =~ s/^\///;
+
+         my $page = DB::Model::Content->find($url);
+
+         return $page->$t;
+      });
+   }
 
    # Router
    my $r = $self->routes;
