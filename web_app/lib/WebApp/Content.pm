@@ -13,7 +13,7 @@ sub serve {
 
    my $url = $self->tx->req->url->to_string;
    if($url !~ m/\.html$/) { $url .= "/index.html"; }
-   $url =~ s/^\///;
+   $url =~ s/^\/\//\//;
 
    my $page = DB::Model::Content->find($url);
 

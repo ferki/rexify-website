@@ -57,7 +57,7 @@ sub import_file {
    $desc     ||= '';
    $page     ||= '';
 
-   $sth->bind_param(1, substr($file, 2));
+   $sth->bind_param(1, "/".substr($file, 2));
    $sth->bind_param(2, $title);
    $sth->bind_param(3, $keywords);
    $sth->bind_param(4, $desc);
