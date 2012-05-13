@@ -1,4 +1,8 @@
-<form action="#comments" method="post">
+% if (my $message = flash 'message') {
+    <b><%= $message %></b><br>
+% }
+
+<form action="/comment/create" method="post">
    <div >
       <table border="0">
          <tr>
@@ -11,7 +15,7 @@
          </tr>
          <tr>
             <td>
-               <label for="question">Please calculate: 5+9</label>
+               <label for="question">Please calculate: <%= $captcha %></label>
             </td>
             <td>
                <input type="text" name="question" id="question" size="30" />

@@ -17,6 +17,8 @@ sub startup {
    $self->plugin('PODRenderer');
    my $config = $self->plugin("Config");
 
+   $self->secret($config->{"secret"});
+
    for my $t (qw/keywords desc title/) {
       $self->helper($t => sub {
          my ($self) = @_;
@@ -25,7 +27,9 @@ sub startup {
          if($url !~ m/\.html$/) { $url .= "/index.html"; }
          $url =~ s/^\///;
 
+
          my $page = DB::Model::Content->find($url);
+         return "" unless $page;
 
          return $page->$t;
       });
@@ -36,6 +40,7 @@ sub startup {
 
    # Normal route to controller
    $r->route('/')->to('content#index');
+   $r->route('/comment/create')->via('POST')->to('comment#create');
 
    $r->route('/*')->to('content#serve');
 
