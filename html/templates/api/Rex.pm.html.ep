@@ -58,7 +58,8 @@
 </p>
 
 <h2>SYNOPSIS</h2>
-<pre><code class="perl">
+<div class="btn btn-default copy-button pull-right" data-clipboard-target="clipboard">Copy to clipboard</div>
+<pre><code id="clipboard" class="perl">
  user "root";
  password "ch4ngem3";
  
@@ -116,7 +117,7 @@
 
 
 <p>Use this function to create a connection if you use Rex as a library.</p>
-<pre><code class="perl">
+<pre><code id="clipboard2" class="perl">
  use Rex;
  use Rex::Commands::Run;
  use Rex::Commands::Fs;
@@ -134,6 +135,8 @@
  }
  
  my $output = run("uptime");</code></pre>
+
+ <button class="btn copy-button" data-clipboard-target="clipboard2">Copy to clipboard</button>
 
 </ul>
 <p>
